@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C871DA1D03046800503352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C871D91D03046800503352 /* AppDelegate.swift */; };
+		04C871DC1D03046800503352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C871DB1D03046800503352 /* ViewController.swift */; };
+		04C871DF1D03046800503352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C871DD1D03046800503352 /* Main.storyboard */; };
+		04C871E11D03046800503352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C871E01D03046800503352 /* Assets.xcassets */; };
+		04C871E41D03046800503352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C871E21D03046800503352 /* LaunchScreen.storyboard */; };
+		04C871EF1D03046800503352 /* SaitamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C871EE1D03046800503352 /* SaitamaTests.swift */; };
+		04C871FA1D03046800503352 /* SaitamaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C871F91D03046800503352 /* SaitamaUITests.swift */; };
+		04C8720A1D032B7300503352 /* SaitamaNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C872091D032B7300503352 /* SaitamaNetworkManager.swift */; };
+		04C8720C1D032DBA00503352 /* DataValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8720B1D032DBA00503352 /* DataValidator.swift */; };
+		04F2599F1D034A0D0013FF34 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2599E1D034A0D0013FF34 /* HomeViewController.swift */; };
+		04F259A11D035BBF0013FF34 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F259A01D035BBF0013FF34 /* PaymentViewController.swift */; };
+		398B324C3FDCD821C6785AA4 /* Pods_SaitamaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51391FE2D6C03F9645014A43 /* Pods_SaitamaTests.framework */; };
+		C6954279D9CF89845495E9D6 /* Pods_SaitamaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF30537C9DA29991D857914C /* Pods_SaitamaUITests.framework */; };
+		D0A5900D0D0FD933F61E7AFB /* Pods_Saitama.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3489867B7AB0316189845B /* Pods_Saitama.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C871EB1D03046800503352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C871CE1D03046800503352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C871D51D03046800503352;
+			remoteInfo = Saitama;
+		};
+		04C871F61D03046800503352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C871CE1D03046800503352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C871D51D03046800503352;
+			remoteInfo = Saitama;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C871D61D03046800503352 /* Saitama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saitama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C871D91D03046800503352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04C871DB1D03046800503352 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04C871DE1D03046800503352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C871E01D03046800503352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C871E31D03046800503352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C871E51D03046800503352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C871EA1D03046800503352 /* SaitamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaitamaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C871EE1D03046800503352 /* SaitamaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaitamaTests.swift; sourceTree = "<group>"; };
+		04C871F01D03046800503352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C871F51D03046800503352 /* SaitamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaitamaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C871F91D03046800503352 /* SaitamaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaitamaUITests.swift; sourceTree = "<group>"; };
+		04C871FB1D03046800503352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C872091D032B7300503352 /* SaitamaNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaitamaNetworkManager.swift; sourceTree = "<group>"; };
+		04C8720B1D032DBA00503352 /* DataValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataValidator.swift; sourceTree = "<group>"; };
+		04F2599E1D034A0D0013FF34 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04F259A01D035BBF0013FF34 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		20000ECF7BB0E4C085D5D6B0 /* Pods-SaitamaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaitamaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaitamaTests/Pods-SaitamaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		29450910E05D5219C5F225FB /* Pods-Saitama.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saitama.release.xcconfig"; path = "Pods/Target Support Files/Pods-Saitama/Pods-Saitama.release.xcconfig"; sourceTree = "<group>"; };
+		332244C884A9449ABC37233B /* Pods-SaitamaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaitamaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaitamaTests/Pods-SaitamaTests.release.xcconfig"; sourceTree = "<group>"; };
+		51391FE2D6C03F9645014A43 /* Pods_SaitamaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaitamaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		698FAEF3EB647C95AAA2883C /* Pods-Saitama.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saitama.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Saitama/Pods-Saitama.debug.xcconfig"; sourceTree = "<group>"; };
+		7A5E7F595BD409CB47AE0076 /* Pods-SaitamaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaitamaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaitamaUITests/Pods-SaitamaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		991724D41EB047AFB7C7D938 /* Pods-SaitamaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaitamaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaitamaUITests/Pods-SaitamaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE3489867B7AB0316189845B /* Pods_Saitama.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saitama.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF30537C9DA29991D857914C /* Pods_SaitamaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaitamaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C871D31D03046800503352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A5900D0D0FD933F61E7AFB /* Pods_Saitama.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C871E71D03046800503352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398B324C3FDCD821C6785AA4 /* Pods_SaitamaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C871F21D03046800503352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6954279D9CF89845495E9D6 /* Pods_SaitamaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C871CD1D03046800503352 = {
+			isa = PBXGroup;
+			children = (
+				04C871D81D03046800503352 /* Saitama */,
+				04C871ED1D03046800503352 /* SaitamaTests */,
+				04C871F81D03046800503352 /* SaitamaUITests */,
+				04C871D71D03046800503352 /* Products */,
+				29E0BBFC2861C5A9F5D48817 /* Pods */,
+				6A960634117432D5DD5F7EAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04C871D71D03046800503352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C871D61D03046800503352 /* Saitama.app */,
+				04C871EA1D03046800503352 /* SaitamaTests.xctest */,
+				04C871F51D03046800503352 /* SaitamaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C871D81D03046800503352 /* Saitama */ = {
+			isa = PBXGroup;
+			children = (
+				04C872071D03228D00503352 /* Classes */,
+				04C871D91D03046800503352 /* AppDelegate.swift */,
+				04C871DB1D03046800503352 /* ViewController.swift */,
+				04C871DD1D03046800503352 /* Main.storyboard */,
+				04C871E01D03046800503352 /* Assets.xcassets */,
+				04C871E21D03046800503352 /* LaunchScreen.storyboard */,
+				04C871E51D03046800503352 /* Info.plist */,
+				04F2599E1D034A0D0013FF34 /* HomeViewController.swift */,
+				04F259A01D035BBF0013FF34 /* PaymentViewController.swift */,
+			);
+			path = Saitama;
+			sourceTree = "<group>";
+		};
+		04C871ED1D03046800503352 /* SaitamaTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C871EE1D03046800503352 /* SaitamaTests.swift */,
+				04C871F01D03046800503352 /* Info.plist */,
+			);
+			path = SaitamaTests;
+			sourceTree = "<group>";
+		};
+		04C871F81D03046800503352 /* SaitamaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04C871F91D03046800503352 /* SaitamaUITests.swift */,
+				04C871FB1D03046800503352 /* Info.plist */,
+			);
+			path = SaitamaUITests;
+			sourceTree = "<group>";
+		};
+		04C872071D03228D00503352 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04C872091D032B7300503352 /* SaitamaNetworkManager.swift */,
+				04C8720B1D032DBA00503352 /* DataValidator.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		29E0BBFC2861C5A9F5D48817 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				698FAEF3EB647C95AAA2883C /* Pods-Saitama.debug.xcconfig */,
+				29450910E05D5219C5F225FB /* Pods-Saitama.release.xcconfig */,
+				20000ECF7BB0E4C085D5D6B0 /* Pods-SaitamaTests.debug.xcconfig */,
+				332244C884A9449ABC37233B /* Pods-SaitamaTests.release.xcconfig */,
+				7A5E7F595BD409CB47AE0076 /* Pods-SaitamaUITests.debug.xcconfig */,
+				991724D41EB047AFB7C7D938 /* Pods-SaitamaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A960634117432D5DD5F7EAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE3489867B7AB0316189845B /* Pods_Saitama.framework */,
+				51391FE2D6C03F9645014A43 /* Pods_SaitamaTests.framework */,
+				EF30537C9DA29991D857914C /* Pods_SaitamaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C871D51D03046800503352 /* Saitama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C871FE1D03046800503352 /* Build configuration list for PBXNativeTarget "Saitama" */;
+			buildPhases = (
+				914321198A1103250A245AF7 /* [CP] Check Pods Manifest.lock */,
+				04C871D21D03046800503352 /* Sources */,
+				04C871D31D03046800503352 /* Frameworks */,
+				04C871D41D03046800503352 /* Resources */,
+				390F3654EBA7EEA0025E6552 /* [CP] Embed Pods Frameworks */,
+				EF402295E457752D014F1A79 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Saitama;
+			productName = Saitama;
+			productReference = 04C871D61D03046800503352 /* Saitama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C871E91D03046800503352 /* SaitamaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C872011D03046800503352 /* Build configuration list for PBXNativeTarget "SaitamaTests" */;
+			buildPhases = (
+				0ACBC0B266A85D267E1B9DC5 /* [CP] Check Pods Manifest.lock */,
+				04C871E61D03046800503352 /* Sources */,
+				04C871E71D03046800503352 /* Frameworks */,
+				04C871E81D03046800503352 /* Resources */,
+				A86C32A7562125892E4844E2 /* [CP] Embed Pods Frameworks */,
+				96D81B09160F47E0BBCC498A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C871EC1D03046800503352 /* PBXTargetDependency */,
+			);
+			name = SaitamaTests;
+			productName = SaitamaTests;
+			productReference = 04C871EA1D03046800503352 /* SaitamaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04C871F41D03046800503352 /* SaitamaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C872041D03046800503352 /* Build configuration list for PBXNativeTarget "SaitamaUITests" */;
+			buildPhases = (
+				4E73507D24D93D32C71FDD9D /* [CP] Check Pods Manifest.lock */,
+				04C871F11D03046800503352 /* Sources */,
+				04C871F21D03046800503352 /* Frameworks */,
+				04C871F31D03046800503352 /* Resources */,
+				07041DA91BF62ED667FF04B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C871F71D03046800503352 /* PBXTargetDependency */,
+			);
+			name = SaitamaUITests;
+			productName = SaitamaUITests;
+			productReference = 04C871F51D03046800503352 /* SaitamaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C871CE1D03046800503352 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mohamedadly;
+				TargetAttributes = {
+					04C871D51D03046800503352 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					04C871E91D03046800503352 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04C871D51D03046800503352;
+					};
+					04C871F41D03046800503352 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04C871D51D03046800503352;
+					};
+				};
+			};
+			buildConfigurationList = 04C871D11D03046800503352 /* Build configuration list for PBXProject "Saitama" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C871CD1D03046800503352;
+			productRefGroup = 04C871D71D03046800503352 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C871D51D03046800503352 /* Saitama */,
+				04C871E91D03046800503352 /* SaitamaTests */,
+				04C871F41D03046800503352 /* SaitamaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C871D41D03046800503352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C871E41D03046800503352 /* LaunchScreen.storyboard in Resources */,
+				04C871E11D03046800503352 /* Assets.xcassets in Resources */,
+				04C871DF1D03046800503352 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C871E81D03046800503352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C871F31D03046800503352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07041DA91BF62ED667FF04B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaitamaUITests/Pods-SaitamaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0ACBC0B266A85D267E1B9DC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		390F3654EBA7EEA0025E6552 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Saitama/Pods-Saitama-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E73507D24D93D32C71FDD9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		914321198A1103250A245AF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96D81B09160F47E0BBCC498A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaitamaTests/Pods-SaitamaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A86C32A7562125892E4844E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaitamaTests/Pods-SaitamaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF402295E457752D014F1A79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Saitama/Pods-Saitama-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C871D21D03046800503352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F2599F1D034A0D0013FF34 /* HomeViewController.swift in Sources */,
+				04F259A11D035BBF0013FF34 /* PaymentViewController.swift in Sources */,
+				04C8720A1D032B7300503352 /* SaitamaNetworkManager.swift in Sources */,
+				04C871DC1D03046800503352 /* ViewController.swift in Sources */,
+				04C8720C1D032DBA00503352 /* DataValidator.swift in Sources */,
+				04C871DA1D03046800503352 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C871E61D03046800503352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C871EF1D03046800503352 /* SaitamaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C871F11D03046800503352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C871FA1D03046800503352 /* SaitamaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C871EC1D03046800503352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C871D51D03046800503352 /* Saitama */;
+			targetProxy = 04C871EB1D03046800503352 /* PBXContainerItemProxy */;
+		};
+		04C871F71D03046800503352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C871D51D03046800503352 /* Saitama */;
+			targetProxy = 04C871F61D03046800503352 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C871DD1D03046800503352 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C871DE1D03046800503352 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C871E21D03046800503352 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C871E31D03046800503352 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C871FC1D03046800503352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04C871FD1D03046800503352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C871FF1D03046800503352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698FAEF3EB647C95AAA2883C /* Pods-Saitama.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Saitama/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedadly.Saitama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04C872001D03046800503352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29450910E05D5219C5F225FB /* Pods-Saitama.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Saitama/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedadly.Saitama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04C872021D03046800503352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20000ECF7BB0E4C085D5D6B0 /* Pods-SaitamaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SaitamaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedadly.SaitamaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saitama.app/Saitama";
+			};
+			name = Debug;
+		};
+		04C872031D03046800503352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332244C884A9449ABC37233B /* Pods-SaitamaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SaitamaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedadly.SaitamaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saitama.app/Saitama";
+			};
+			name = Release;
+		};
+		04C872051D03046800503352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5E7F595BD409CB47AE0076 /* Pods-SaitamaUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SaitamaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedadly.SaitamaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Saitama;
+			};
+			name = Debug;
+		};
+		04C872061D03046800503352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991724D41EB047AFB7C7D938 /* Pods-SaitamaUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SaitamaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedadly.SaitamaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Saitama;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C871D11D03046800503352 /* Build configuration list for PBXProject "Saitama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C871FC1D03046800503352 /* Debug */,
+				04C871FD1D03046800503352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C871FE1D03046800503352 /* Build configuration list for PBXNativeTarget "Saitama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C871FF1D03046800503352 /* Debug */,
+				04C872001D03046800503352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C872011D03046800503352 /* Build configuration list for PBXNativeTarget "SaitamaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C872021D03046800503352 /* Debug */,
+				04C872031D03046800503352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C872041D03046800503352 /* Build configuration list for PBXNativeTarget "SaitamaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C872051D03046800503352 /* Debug */,
+				04C872061D03046800503352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C871CE1D03046800503352 /* Project object */;
+}
